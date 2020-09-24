@@ -23,6 +23,9 @@ namespace OrderProcessingApp.Controllers
         }
 
         [HttpPost]
+        [ProducesResponseType(200, Type = typeof(IEnumerable<PaymentType>))]
+        [ProducesResponseType(404)]
+        [ProducesResponseType(406)]
         public async Task<IActionResult> ProcessPayment(PaymentType payment)
         {
             try
