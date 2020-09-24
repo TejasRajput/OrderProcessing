@@ -8,7 +8,7 @@ using OrderAppCommon.Model;
 
 namespace OrderProcessingApp.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class PaymentController : ControllerBase
     {

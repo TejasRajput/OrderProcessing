@@ -6,12 +6,12 @@ namespace OrderRepo
     {
         public static async Task<string> CommissionResult()
         {
-            return "Commission Payment of the agent";
+            return " Commission Payment of the agent";
         }
 
         public static async Task<string> EmailResult()
         {
-            return "Email has been sent to owner about activation or upgrade.";
+            return " Email has been sent to owner about activation or upgrade.";
         }
     }
 }
