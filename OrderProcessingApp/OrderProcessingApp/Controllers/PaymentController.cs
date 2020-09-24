@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using OrderAppCommon.Interface;
+using OrderAppCommon.Model;
 
 namespace OrderProcessingApp.Controllers
 {
@@ -11,5 +14,27 @@ namespace OrderProcessingApp.Controllers
     [ApiController]
     public class PaymentController : ControllerBase
     {
+
+        private readonly IPaymentService _paymentsService;
+
+        public PaymentController(IPaymentService paymentsService)
+        {
+            _paymentsService = paymentsService;
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ProcessPayment(PaymentType payment)
+        {
+            try
+            {
+                var response = await _paymentsService.PaymentProcess(payment.SelectedItem);
+
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
     }
 }
