@@ -1,0 +1,9 @@
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppCommon\bin\Debug\netcoreapp3.1\OrderAppCommon.deps.json
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppCommon\bin\Debug\netcoreapp3.1\OrderAppCommon.dll
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppCommon\bin\Debug\netcoreapp3.1\OrderAppCommon.pdb
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppCommon\obj\Debug\netcoreapp3.1\OrderAppCommon.csprojAssemblyReference.cache
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppCommon\obj\Debug\netcoreapp3.1\OrderAppCommon.AssemblyInfoInputs.cache
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppCommon\obj\Debug\netcoreapp3.1\OrderAppCommon.AssemblyInfo.cs
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppCommon\obj\Debug\netcoreapp3.1\OrderAppCommon.csproj.CoreCompileInputs.cache
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppCommon\obj\Debug\netcoreapp3.1\OrderAppCommon.dll
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppCommon\obj\Debug\netcoreapp3.1\OrderAppCommon.pdb

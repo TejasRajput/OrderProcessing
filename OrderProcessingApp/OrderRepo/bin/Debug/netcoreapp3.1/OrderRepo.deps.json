@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "OrderRepo/1.0.0": {
+        "dependencies": {
+          "OrderAppCommon": "1.0.0"
+        },
+        "runtime": {
+          "OrderRepo.dll": {}
+        }
+      },
+      "OrderAppCommon/1.0.0": {
+        "runtime": {
+          "OrderAppCommon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderRepo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderAppCommon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

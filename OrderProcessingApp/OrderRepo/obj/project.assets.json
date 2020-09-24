@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "OrderAppCommon/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/OrderAppCommon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderAppCommon.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "OrderAppCommon/1.0.0": {
+      "type": "project",
+      "path": "../OrderAppCommon/OrderAppCommon.csproj",
+      "msbuildProject": "../OrderAppCommon/OrderAppCommon.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "OrderAppCommon >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\AL2851\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Tejas Projects\\Tests\\OrderProcessing\\OrderProcessingApp\\OrderAppCommon\\OrderAppCommon.csproj": {
+              "projectPath": "D:\\Tejas Projects\\Tests\\OrderProcessing\\OrderProcessingApp\\OrderAppCommon\\OrderAppCommon.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

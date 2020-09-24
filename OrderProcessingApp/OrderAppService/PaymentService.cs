@@ -8,11 +8,17 @@ namespace OrderAppService
 {
    public class PaymentService : IPaymentService
     {
-       
+        private readonly IPaymentRules _paymentRules;
 
-        public  Task<string> PaymentProcess(string selectedItem)
+        public PaymentService(IPaymentRules paymentRules)
         {
-            return null;
+            _paymentRules = paymentRules;
+        }
+
+
+        public async Task<string> PaymentProcess(string selectedItem)
+        {
+            return await _paymentRules.GetProcessor(selectedItem)?.Result();
         }
     }
 }

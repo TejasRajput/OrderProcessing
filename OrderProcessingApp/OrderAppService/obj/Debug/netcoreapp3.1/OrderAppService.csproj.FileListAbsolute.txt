@@ -1,0 +1,12 @@
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppService\bin\Debug\netcoreapp3.1\OrderAppService.deps.json
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppService\bin\Debug\netcoreapp3.1\OrderAppService.dll
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppService\bin\Debug\netcoreapp3.1\OrderAppService.pdb
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppService\bin\Debug\netcoreapp3.1\OrderAppCommon.dll
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppService\bin\Debug\netcoreapp3.1\OrderAppCommon.pdb
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppService\obj\Debug\netcoreapp3.1\OrderAppService.csprojAssemblyReference.cache
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppService\obj\Debug\netcoreapp3.1\OrderAppService.AssemblyInfoInputs.cache
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppService\obj\Debug\netcoreapp3.1\OrderAppService.AssemblyInfo.cs
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppService\obj\Debug\netcoreapp3.1\OrderAppService.csproj.CoreCompileInputs.cache
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppService\obj\Debug\netcoreapp3.1\OrderAppService.csproj.CopyComplete
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppService\obj\Debug\netcoreapp3.1\OrderAppService.dll
+D:\Tejas Projects\Tests\OrderProcessing\OrderProcessingApp\OrderAppService\obj\Debug\netcoreapp3.1\OrderAppService.pdb
