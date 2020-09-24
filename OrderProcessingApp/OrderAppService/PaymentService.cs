@@ -1,12 +1,9 @@
-﻿using OrderAppCommon.Interface;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using OrderAppCommon.Interface;
 
 namespace OrderAppService
 {
-   public class PaymentService : IPaymentService
+    public class PaymentService : IPaymentService
     {
         private readonly IPaymentRules _paymentRules;
 

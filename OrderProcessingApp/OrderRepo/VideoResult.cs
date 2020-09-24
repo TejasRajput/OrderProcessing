@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using OrderAppCommon.Interface;
 
 namespace OrderRepo
@@ -10,7 +7,7 @@ namespace OrderRepo
     {
         public async Task<string> Result()
         {
-            string message = "Learning to SKI, add free First AID videos to the packing slip.";
+            var message = "Learning to SKI, add free First AID videos to the packing slip.";
 
             return message;
         }

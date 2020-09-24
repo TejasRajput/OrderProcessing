@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OrderAppCommon.Interface;
 using OrderAppCommon.Model;
@@ -14,7 +12,6 @@ namespace OrderProcessingApp.Controllers
     [ApiController]
     public class PaymentController : ControllerBase
     {
-
         private readonly IPaymentService _paymentsService;
 
         public PaymentController(IPaymentService paymentsService)
@@ -36,7 +33,7 @@ namespace OrderProcessingApp.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+                return StatusCode((int) HttpStatusCode.InternalServerError, ex.Message);
             }
         }
     }

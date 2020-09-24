@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace OrderRepo
+﻿namespace OrderRepo
 {
     public class Class1
     {

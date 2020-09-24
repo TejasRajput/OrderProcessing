@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using OrderAppCommon.Interface;
 
 namespace OrderRepo
@@ -15,5 +12,4 @@ namespace OrderRepo
             return "Packing slip for shipping is generated." + commission;
         }
     }
-
 }

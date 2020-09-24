@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace OrderAppCommon.Model
+﻿namespace OrderAppCommon.Model
 {
     public class PaymentType
     {

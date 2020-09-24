@@ -1,6 +1,5 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using OrderAppCommon.Interface;
@@ -46,7 +45,7 @@ namespace OrderAppTest
             var okObjectResult = result as OkObjectResult;
             Assert.IsNotNull(result);
             Assert.AreSame(expectedResults, okObjectResult.Value);
-            this.mockPaymentsService.VerifyAll();
+            mockPaymentsService.VerifyAll();
         }
 
         [TestMethod]
@@ -70,7 +69,7 @@ namespace OrderAppTest
             var okObjectResult = result as OkObjectResult;
             Assert.IsNotNull(result);
             Assert.AreEqual(expectedResults, okObjectResult.Value);
-            this.mockPaymentsService.VerifyAll();
+            mockPaymentsService.VerifyAll();
         }
 
 
@@ -95,7 +94,7 @@ namespace OrderAppTest
             var okObjectResult = result as OkObjectResult;
             Assert.IsNotNull(result);
             Assert.AreEqual(expectedResults, okObjectResult.Value);
-            this.mockPaymentsService.VerifyAll();
+            mockPaymentsService.VerifyAll();
         }
 
         [TestMethod]
@@ -119,14 +118,15 @@ namespace OrderAppTest
             var okObjectResult = result as OkObjectResult;
             Assert.IsNotNull(result);
             Assert.AreEqual(expectedResults, okObjectResult.Value);
-            this.mockPaymentsService.VerifyAll();
+            mockPaymentsService.VerifyAll();
         }
 
         [TestMethod]
         public async Task ProcessPaymentForUpgradeMembership_works()
         {
             var selectedItem = "upgrade membership";
-            var expectedResults = "Membership apply for update. Email has been sent to owner about activation or upgrade.";
+            var expectedResults =
+                "Membership apply for update. Email has been sent to owner about activation or upgrade.";
             //Arrange
             mockPaymentsService.Setup(r => r.PaymentProcess(selectedItem))
                 .ReturnsAsync(expectedResults);
@@ -143,7 +143,7 @@ namespace OrderAppTest
             var okObjectResult = result as OkObjectResult;
             Assert.IsNotNull(result);
             Assert.AreEqual(expectedResults, okObjectResult.Value);
-            this.mockPaymentsService.VerifyAll();
+            mockPaymentsService.VerifyAll();
         }
     }
 }
