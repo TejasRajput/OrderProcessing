@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RIB77htsfupbvZs9WVudqh2C/3KYCOdbo0qQClthCOJ+GaPp9p0hT0ZaVkP7uC7SXeNCk0gDy/LF9NB51zx0yQ==",
+  "success": true,
+  "projectFilePath": "D:\\Tejas Projects\\Tests\\OrderProcessing\\OrderProcessingApp\\OrderAppCommon\\OrderAppCommon.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AL2851\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
